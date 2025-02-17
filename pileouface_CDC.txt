@@ -1,0 +1,39 @@
+demande à l'utilisateur pile ou face
+La pièce est jetée (sleep)
+fonction rand pour déterminer de façon aléatoire le pile ou face 
+comparaison entre user_input et résultat de rand pour savoir qui gagne ou égalité
+si joueur gagne + win_score, s'il perd, +1 lose_score, égalité = rien ne se passe;
+print
+
+Est ce que je peux utiliser la fonction sleep dans un printf?
+printf("Blablabla(sleep)...");
+
+Quand je rajouterai le fait de pouvoir écrire PiLe pile PILE pIlE par ex, faire un char*nom_tableau[] = 
+	"pile",
+	"PiLe",
+	"PILE"
+	
+Du coup soit strcmp peut être soit :
+
+if user_choice == nom_tableau[0] || user_choice == nom_tableau[1] etc..
+
+faire tableau soit char *nom_du_tableau[]{
+
+	"première phrase",
+	"deuxieme",
+	"blalblal",
+	"tatata"
+}
+
+ou
+
+char nom_tableau2[4][12]{
+
+	'p','r','e,'m','i','e','r','e',
+	'p','r','e,'m','i','e','r','s',
+	'p','r','e,'m','i','e','r',
+	'p','r','e,'m','i','e','r','e'
+}
+
+Faire boucle for pour comparer char par char avec la table ascii
+Pour faire apparaitre points de suspension petit à petit, faire une boucle for?
